@@ -8,6 +8,7 @@
  Margin: 0;
  Padding: 0;
  Background-color: lightyellow;
+ box-sizing:border-box;
 }
 Header {
  Background-color: yellow;
@@ -31,13 +32,29 @@ Footer {
  Text-align: center;
  Padding: 10px;
 }
+.box{
+height:50vh;
+display:flex;
+justify-content:center;
+align-items:center;
+}
+.box img{
+width:250px;
+height:250px;
+border-radius:50%;
+padding:10px;
+border:5px solid yellow;
+}
 </style>
  <script src=”script.js”></script>
 </head>
 <body>
  <header>
-  <!--<link rel="icon" href="profile.png" type="image/icon type">-->
-  <figure><br/><img src=”profile.png”>
+  <!--<link rel="icon" href="profile.png">-->
+  <div class="box">
+  <img src="profile.png">
+  </div>
+ 
  <h1>SUSHANTH
 </h1>
  <p>1-67 Shankesh House Adve, Nandikoor, Udupi, Karnataka-574111</br>
